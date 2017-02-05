@@ -41,5 +41,58 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="cVb-zs-szP">
+            <objects>
+                <viewController id="YXv-00-seP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="v0a-eV-g3E"/>
+                        <viewControllerLayoutGuide type="bottom" id="EM6-bU-dJ9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PYV-Lh-K9j">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hvx-KN-Gam">
+                                <rect key="frame" x="51" y="60" width="218" height="239"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wXv-BI-Sn7">
+                                        <rect key="frame" x="0.0" y="0.0" width="218" height="239"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="F75-bY-oqT">
+                                                <rect key="frame" x="0.0" y="0.0" width="218" height="239"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="💒" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DkS-2P-h1y">
+                                                        <rect key="frame" x="0.0" y="0.0" width="218" height="239"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="200"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a awesome Church" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dho-mi-OSK">
+                                <rect key="frame" x="60.5" y="349" width="199.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dho-mi-OSK" firstAttribute="centerX" secondItem="PYV-Lh-K9j" secondAttribute="centerX" id="Akf-u1-0Gh"/>
+                            <constraint firstItem="hvx-KN-Gam" firstAttribute="centerX" secondItem="PYV-Lh-K9j" secondAttribute="centerX" id="BG9-xy-zCw"/>
+                            <constraint firstItem="dho-mi-OSK" firstAttribute="top" secondItem="DkS-2P-h1y" secondAttribute="bottom" constant="50" id="MUj-yR-R8u"/>
+                            <constraint firstItem="hvx-KN-Gam" firstAttribute="top" secondItem="v0a-eV-g3E" secondAttribute="bottom" constant="40" id="Ugn-Oz-jEI"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b6F-hT-b0y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="746" y="33"/>
+        </scene>
     </scenes>
 </document>
