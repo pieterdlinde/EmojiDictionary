@@ -30,10 +30,14 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "MoveSegue", sender: "😜")
+        let emoji = Emojies[indexPath.row]
+        performSegue(withIdentifier: "MoveSegue", sender: emoji)
+        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let devCV = segue.destination as! DefinitionViewController
+         devCV.Emoji = sender as! String
         
     }
     

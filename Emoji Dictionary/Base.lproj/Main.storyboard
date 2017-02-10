@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wba-pw-USj">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wba-pw-USj">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Emoji_Dictionary" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" customModule="Emoji_Dictionary" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -48,10 +48,10 @@
             </objects>
             <point key="canvasLocation" x="1042.5" y="41.197183098591552"/>
         </scene>
-        <!--View Controller-->
+        <!--Definition View Controller-->
         <scene sceneID="cVb-zs-szP">
             <objects>
-                <viewController id="YXv-00-seP" sceneMemberID="viewController">
+                <viewController id="YXv-00-seP" customClass="DefinitionViewController" customModule="Emoji_Dictionary" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="v0a-eV-g3E"/>
                         <viewControllerLayoutGuide type="bottom" id="EM6-bU-dJ9"/>
@@ -61,7 +61,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hvx-KN-Gam">
-                                <rect key="frame" x="51" y="60" width="218" height="239"/>
+                                <rect key="frame" x="51" y="104" width="218" height="239"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wXv-BI-Sn7">
                                         <rect key="frame" x="0.0" y="0.0" width="218" height="239"/>
@@ -82,7 +82,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a awesome Church" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dho-mi-OSK">
-                                <rect key="frame" x="60.5" y="349" width="199.5" height="20.5"/>
+                                <rect key="frame" x="60.5" y="393" width="199.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -96,6 +96,9 @@
                             <constraint firstItem="hvx-KN-Gam" firstAttribute="top" secondItem="v0a-eV-g3E" secondAttribute="bottom" constant="40" id="Ugn-Oz-jEI"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="EmojiIcon" destination="DkS-2P-h1y" id="Gb4-EC-tbl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b6F-hT-b0y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
