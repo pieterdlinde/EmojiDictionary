@@ -30,6 +30,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: false)
         let emoji = Emojies[indexPath.row]
         performSegue(withIdentifier: "MoveSegue", sender: emoji)
         

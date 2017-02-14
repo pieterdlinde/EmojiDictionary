@@ -97,6 +97,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="EmojiDefinition" destination="dho-mi-OSK" id="V5U-xf-DqP"/>
                         <outlet property="EmojiIcon" destination="DkS-2P-h1y" id="Gb4-EC-tbl"/>
                     </connections>
                 </viewController>
