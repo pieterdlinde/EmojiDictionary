@@ -14,6 +14,8 @@ class DefinitionViewController: UIViewController {
     
     @IBOutlet weak var EmojiDefinition: UILabel!
     @IBOutlet weak var EmojiIcon: UILabel!
+    @IBOutlet weak var Test2: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print(Emoji)
@@ -21,10 +23,11 @@ class DefinitionViewController: UIViewController {
         EmojiIcon.text = "\(Emoji)"
         if Emoji == "😃" {
             EmojiDefinition.text = "Happy face"
+            Test2.text="Whololo"
         }
         else if Emoji == "👠"{
             EmojiDefinition.text = "This is a shoe"
-
+            Test2.text="Whololo"
         }
         
     }

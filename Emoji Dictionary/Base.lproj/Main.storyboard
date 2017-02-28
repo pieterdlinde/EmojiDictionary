@@ -82,7 +82,14 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a awesome Church" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dho-mi-OSK">
-                                <rect key="frame" x="60.5" y="393" width="199.5" height="20.5"/>
+                                <rect key="frame" x="60" y="393" width="200" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is a awesome Church" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ut-aG-9WI">
+                                <rect key="frame" x="65" y="418" width="199.5" height="20.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -99,6 +106,7 @@
                     <connections>
                         <outlet property="EmojiDefinition" destination="dho-mi-OSK" id="V5U-xf-DqP"/>
                         <outlet property="EmojiIcon" destination="DkS-2P-h1y" id="Gb4-EC-tbl"/>
+                        <outlet property="Test2" destination="1Ut-aG-9WI" id="vHK-T7-8fA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b6F-hT-b0y" userLabel="First Responder" sceneMemberID="firstResponder"/>
