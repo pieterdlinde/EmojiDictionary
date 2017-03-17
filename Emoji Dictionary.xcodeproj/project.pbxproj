@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A48AF7F1E7BF18600974C1E /* Emoji_DictionaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A48AF7E1E7BF18600974C1E /* Emoji_DictionaryUITests.swift */; };
 		0A60DCCB1E4759F200977743 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A60DCCA1E4759F200977743 /* AppDelegate.swift */; };
 		0A60DCCD1E4759F200977743 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A60DCCC1E4759F200977743 /* ViewController.swift */; };
 		0A60DCD01E4759F200977743 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A60DCCE1E4759F200977743 /* Main.storyboard */; };
@@ -15,7 +16,20 @@
 		0A8CD91C1E4DD4B600BB3BE0 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8CD91B1E4DD4B600BB3BE0 /* DefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0A48AF811E7BF18600974C1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A60DCBF1E4759F200977743 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A60DCC61E4759F200977743;
+			remoteInfo = "Emoji Dictionary";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0A48AF7C1E7BF18600974C1E /* Emoji DictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emoji DictionaryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A48AF7E1E7BF18600974C1E /* Emoji_DictionaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_DictionaryUITests.swift; sourceTree = "<group>"; };
+		0A48AF801E7BF18600974C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A60DCC71E4759F200977743 /* Emoji Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A60DCCA1E4759F200977743 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A60DCCC1E4759F200977743 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,6 +41,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0A48AF791E7BF18600974C1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0A60DCC41E4759F200977743 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,10 +58,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A48AF7D1E7BF18600974C1E /* Emoji DictionaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A48AF7E1E7BF18600974C1E /* Emoji_DictionaryUITests.swift */,
+				0A48AF801E7BF18600974C1E /* Info.plist */,
+			);
+			path = "Emoji DictionaryUITests";
+			sourceTree = "<group>";
+		};
 		0A60DCBE1E4759F200977743 = {
 			isa = PBXGroup;
 			children = (
 				0A60DCC91E4759F200977743 /* Emoji Dictionary */,
+				0A48AF7D1E7BF18600974C1E /* Emoji DictionaryUITests */,
 				0A60DCC81E4759F200977743 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				0A60DCC71E4759F200977743 /* Emoji Dictionary.app */,
+				0A48AF7C1E7BF18600974C1E /* Emoji DictionaryUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +102,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0A48AF7B1E7BF18600974C1E /* Emoji DictionaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A48AF831E7BF18600974C1E /* Build configuration list for PBXNativeTarget "Emoji DictionaryUITests" */;
+			buildPhases = (
+				0A48AF781E7BF18600974C1E /* Sources */,
+				0A48AF791E7BF18600974C1E /* Frameworks */,
+				0A48AF7A1E7BF18600974C1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A48AF821E7BF18600974C1E /* PBXTargetDependency */,
+			);
+			name = "Emoji DictionaryUITests";
+			productName = "Emoji DictionaryUITests";
+			productReference = 0A48AF7C1E7BF18600974C1E /* Emoji DictionaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		0A60DCC61E4759F200977743 /* Emoji Dictionary */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A60DCD91E4759F200977743 /* Build configuration list for PBXNativeTarget "Emoji Dictionary" */;
@@ -97,6 +147,12 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = PieterLinde;
 				TargetAttributes = {
+					0A48AF7B1E7BF18600974C1E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8UAMPRD54L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0A60DCC61E4759F200977743;
+					};
 					0A60DCC61E4759F200977743 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Manual;
@@ -117,11 +173,19 @@
 			projectRoot = "";
 			targets = (
 				0A60DCC61E4759F200977743 /* Emoji Dictionary */,
+				0A48AF7B1E7BF18600974C1E /* Emoji DictionaryUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0A48AF7A1E7BF18600974C1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0A60DCC51E4759F200977743 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -135,6 +199,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0A48AF781E7BF18600974C1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A48AF7F1E7BF18600974C1E /* Emoji_DictionaryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0A60DCC31E4759F200977743 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -146,6 +218,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A48AF821E7BF18600974C1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A60DCC61E4759F200977743 /* Emoji Dictionary */;
+			targetProxy = 0A48AF811E7BF18600974C1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0A60DCCE1E4759F200977743 /* Main.storyboard */ = {
@@ -167,6 +247,34 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0A48AF841E7BF18600974C1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8UAMPRD54L;
+				INFOPLIST_FILE = "Emoji DictionaryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eoh.Emoji-DictionaryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0784724a-8792-4554-adf4-39ef45f1bcf7";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Emoji Dictionary";
+			};
+			name = Debug;
+		};
+		0A48AF851E7BF18600974C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8UAMPRD54L;
+				INFOPLIST_FILE = "Emoji DictionaryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eoh.Emoji-DictionaryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0784724a-8792-4554-adf4-39ef45f1bcf7";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Emoji Dictionary";
+			};
+			name = Release;
+		};
 		0A60DCD71E4759F200977743 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -296,6 +404,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0A48AF831E7BF18600974C1E /* Build configuration list for PBXNativeTarget "Emoji DictionaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A48AF841E7BF18600974C1E /* Debug */,
+				0A48AF851E7BF18600974C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		0A60DCC21E4759F200977743 /* Build configuration list for PBXProject "Emoji Dictionary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
